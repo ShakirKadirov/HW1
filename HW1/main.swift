@@ -43,3 +43,16 @@ if checkAge > 18{
 } else {
     print("Доступ запрещен")
 }
+
+// MARK: Task 4
+
+let name = "Shakir"
+let lastname = "Kadirov"
+let  patronymics = "Zairovich"
+
+let showFullName = lastname + " " + name + " " + patronymics
+print(showFullName)
+
+// or
+
+print("\(lastname) \(name) \(patronymics)")
