@@ -120,3 +120,13 @@ if (conditionOne || conditionTwo == true){
 } else {
     print("Оба условия ложны")
 }
+
+// MARK: Task 10
+
+let numberToCheck = 6
+
+if numberToCheck % 2 != 0 {
+    print("Число четное")
+} else {
+    print("Число нечетное")
+}
