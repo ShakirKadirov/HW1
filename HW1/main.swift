@@ -78,3 +78,10 @@ if (number2 != 0){
     print("can't divided \(number1) to \(number2) because  number cannot be divided by zero ")
 }
 
+// MARK: Task 6
+
+let numberFloat: Float = 23.333
+let numberDouble: Double = 10.222
+
+let sumFloatDouble = numberFloat + Float(numberDouble)
+print(sumFloatDouble)
