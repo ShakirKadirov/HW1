@@ -101,3 +101,14 @@ if ageOfMajorityCheck >= 18 {
 for i in 1...10{
     print( i * i)
 }
+
+// MARK: Task 8.2
+
+let conditionOne = true
+let conditionTwo = true
+
+if (conditionOne && conditionTwo == true){
+    print("Оба условия выполняются")
+} else {
+    print("Не все условия выполняются")
+}
