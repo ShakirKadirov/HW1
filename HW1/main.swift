@@ -85,3 +85,13 @@ let numberDouble: Double = 10.222
 
 let sumFloatDouble = numberFloat + Float(numberDouble)
 print(sumFloatDouble)
+
+// MARK: Task 7
+
+var ageOfMajorityCheck = 17
+
+if ageOfMajorityCheck >= 18 {
+    print("adult")
+} else {
+    print("minor")
+}
