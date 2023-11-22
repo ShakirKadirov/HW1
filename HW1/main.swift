@@ -104,11 +104,19 @@ for i in 1...10{
 
 // MARK: Task 8.2
 
-let conditionOne = true
-let conditionTwo = true
+let conditionOne = false
+let conditionTwo = false
 
 if (conditionOne && conditionTwo == true){
     print("Оба условия выполняются")
 } else {
     print("Не все условия выполняются")
+}
+
+// MARK: Task 9
+
+if (conditionOne || conditionTwo == true){
+    print("Xотя бы одно из условий выполняется")
+} else {
+    print("Оба условия ложны")
 }
