@@ -130,3 +130,15 @@ if numberToCheck % 2 != 0 {
 } else {
     print("Число нечетное")
 }
+
+
+// MARK: Task 11
+
+let isAdult = true
+let hasTicket = false
+
+if isAdult && hasTicket {
+    print("Добро пожаловать!")
+} else {
+    print("Доступ запрещен")
+}
