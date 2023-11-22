@@ -23,3 +23,13 @@ if condition1 || condition2 {
 } else {
     print("Оба условия ложны")
 }
+
+// MARK: Task 2
+
+var number = 22
+
+if (number % 2 == 0){
+    print("Число четное")
+} else {
+    print("Число нечетное")
+}
