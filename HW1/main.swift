@@ -95,3 +95,9 @@ if ageOfMajorityCheck >= 18 {
 } else {
     print("minor")
 }
+
+// MARK: Task 8
+
+for i in 1...10{
+    print( i * i)
+}
