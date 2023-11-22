@@ -26,7 +26,7 @@ if condition1 || condition2 {
 
 // MARK: Task 2
 
-var number = 22
+let number = 22
 
 if (number % 2 == 0){
     print("Число четное")
@@ -36,7 +36,7 @@ if (number % 2 == 0){
 
 // MARK: Task 3
 
-var checkAge = 33
+let checkAge = 33
 
 if checkAge > 18{
     print("Добро пожаловать!")
@@ -56,3 +56,25 @@ print(showFullName)
 // or
 
 print("\(lastname) \(name) \(patronymics)")
+
+// MARK: Task 5
+
+let number1 = 33
+let number2 = 0
+
+let sum = number1 + number2
+print("Sum equal to: \(sum)")
+
+let difference = number1 - number2
+print("Difference equal to: \(difference)")
+
+let product = number1 * number2
+print("Product \(number1) and \(number2) equal to \(product)")
+
+if (number2 != 0){
+    let divided = number1 / number2
+    print("quotient equal to : \(divided)")
+} else {
+    print("can't divided \(number1) to \(number2) because  number cannot be divided by zero ")
+}
+
