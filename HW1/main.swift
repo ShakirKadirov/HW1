@@ -33,3 +33,13 @@ if (number % 2 == 0){
 } else {
     print("Число нечетное")
 }
+
+// MARK: Task 3
+
+var checkAge = 33
+
+if checkAge > 18{
+    print("Добро пожаловать!")
+} else {
+    print("Доступ запрещен")
+}
